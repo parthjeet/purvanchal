@@ -917,3 +917,8 @@ table {
   padding-left: 20vw;
   padding-right: 20vw;
 }
+
+#map_canvas{
+  max-width: 300px;
+  max-height: 300px;
+}
