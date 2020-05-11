@@ -95,6 +95,8 @@ body > section,
 .sec-sub-title {
   font-weight: 520 !important;
   margin: 35px 0 45px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .sec-sub-title p {
