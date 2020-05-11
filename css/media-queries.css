@@ -109,6 +109,11 @@
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+
+  .pd-lr-20{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
   .sec-sub-title p {
     font-size: 14px;
   }
@@ -205,8 +210,11 @@
   .footer-single {
     margin-bottom: 30px;
   }
-  .about-img {
+  /* .about-img {
     float: none;
+  } */
+  .pd-lr-20{
+    padding: unset;
   }
 }
 
@@ -242,7 +250,8 @@
     left: inherit !important;
     width: 50%;
   }
-  .about-img {
+  /* .about-img {
     float: none;
-  }
+  } */
+
 }
