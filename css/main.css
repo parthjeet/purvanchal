@@ -5,8 +5,8 @@
 body {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  line-height: 21px;
-  font-size: 13px;
+  line-height: 18px;
+  font-size: 15px;
   color: #6a737b;
 }
 
@@ -88,19 +88,19 @@ body > section,
 .sec-title h2 {
   color: #0eb493;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .sec-sub-title {
-  font-weight: 520 !important;
+  font-weight: 300 !important;
   margin: 35px 0 45px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .sec-sub-title p {
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   font-size: 18px;
   color: #5b646e;
@@ -223,7 +223,7 @@ body > section,
 }
 
 .carousel-caption h2 span {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .carousel-caption h3 {
@@ -350,7 +350,7 @@ body > section,
 }
 
 .sec-sub-title-structure p {
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   font-size: 18px;
   color: #5b646e;
@@ -409,7 +409,7 @@ body > section,
 .service-desc h3 {
   color: #062033;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 25px;
 }
 
@@ -429,7 +429,7 @@ body > section,
   color: #062033;
   display: block;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 5px 17px;
   border-radius: 6px;
   text-transform: capitalize;
@@ -510,7 +510,7 @@ body > section,
 
 .work-item .overlay h4 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 550;
   line-height: 24px;
   margin: 25px 0 8px;
 }
@@ -570,7 +570,7 @@ body > section,
 
 .work-item .overlay1 h4 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
   margin: 25px 0 8px;
 }
@@ -591,7 +591,7 @@ body > section,
 
 .member-thumb .overlay h5 {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
   margin: 10px 0;
 }
@@ -720,7 +720,7 @@ body > section,
 .contact-form h3 {
   color: #062033;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 32px;
   margin-bottom: 25px;
 }
@@ -934,4 +934,11 @@ table {
 
 .margin-top-100{
   margin-top: 100px !important;
+}
+
+.navbar-text{
+  color:white;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  
 }
