@@ -93,7 +93,7 @@ body > section,
 }
 
 .sec-sub-title {
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   margin: 35px 0 45px;
   padding-left: 10px;
   padding-right: 10px;
@@ -214,7 +214,7 @@ body > section,
 }
 
 .carousel-caption {
-  top: 50%;
+  top: 45%;
 }
 
 .carousel-caption h2 {
@@ -228,14 +228,14 @@ body > section,
 
 .carousel-caption h3 {
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 6px 0 20px;
 }
 
 .carousel-caption p {
   color: #fff;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .carousel-caption p:before,
@@ -409,7 +409,7 @@ body > section,
 .service-desc h3 {
   color: #062033;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 25px;
 }
 
@@ -510,7 +510,7 @@ body > section,
 
 .work-item .overlay h4 {
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
   line-height: 24px;
   margin: 25px 0 8px;
 }
@@ -714,8 +714,6 @@ body > section,
   line-height: 24px;
 }
 
-.contact-form {
-}
 
 .contact-form h3 {
   color: #062033;

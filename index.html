@@ -18,6 +18,8 @@
     <meta name="author" content="Parthjeet & Kishan" />
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" /> 
 
     <!-- Google Font -->
 
@@ -225,12 +227,12 @@
 
             <ul class="text-center">
               <li>
-                <a href="javascript:;" data-filter="all" class="active filter"
+                <a href="javascript:;" data-filter="all" class="filter"
                   >All</a
                 >
               </li>
               <li>
-                <a href="javascript:;" data-filter=".awareness" class="filter"
+                <a href="javascript:;" data-filter=".awareness" class="active filter"
                   >Awareness Camp</a
                 >
               </li>
@@ -396,6 +398,71 @@
                   ><i class="fa fa-eye fa-lg"></i
                 ></a>
                 <p>Child Support</p>
+              </figcaption>
+            </figure>
+
+            <figure class="mix work-item covid19">
+              <img src="./img/images/covid1_4x3.jpg" alt="" />
+              <figcaption class="overlay">
+                <a
+                  class="fancybox"
+                  rel="works"
+                  href="./img/images/covid1.jpg"
+                  ><i class="fa fa-eye fa-lg"></i
+                ></a>
+                <p>COVID-19</p>
+              </figcaption>
+            </figure>
+
+            <figure class="mix work-item covid19">
+              <img src="./img/images/covid2_4x3.jpg" alt="" />
+              <figcaption class="overlay">
+                <a
+                  class="fancybox"
+                  rel="works"
+                  href="./img/images/covid2.jpg"
+                  ><i class="fa fa-eye fa-lg"></i
+                ></a>
+                <p>COVID-19</p>
+              </figcaption>
+            </figure>
+
+            <figure class="mix work-item support">
+              <img src="./img/images/child1_4x3.jpg" alt="" />
+              <figcaption class="overlay">
+                <a
+                  class="fancybox"
+                  rel="works"
+                  href="./img/images/child1.jpg"
+                  ><i class="fa fa-eye fa-lg"></i
+                ></a>
+                <p>Child Support</p>
+              </figcaption>
+            </figure>
+
+            <figure class="mix work-item support">
+              <img src="./img/images/child2_4x3.jpg" alt="" />
+              <figcaption class="overlay">
+                <a
+                  class="fancybox"
+                  rel="works"
+                  href="./img/images/child2.jpg"
+                  ><i class="fa fa-eye fa-lg"></i
+                ></a>
+                <p>Child Support</p>
+              </figcaption>
+            </figure>
+
+            <figure class="mix work-item workshop">
+              <img src="./img/images/workshop1_4x3.jpg" alt="" />
+              <figcaption class="overlay">
+                <a
+                  class="fancybox"
+                  rel="works"
+                  href="./img/images/workshop1.jpg"
+                  ><i class="fa fa-eye fa-lg"></i
+                ></a>
+                <p>Workshop</p>
               </figcaption>
             </figure>
 
@@ -797,63 +864,6 @@
     <!-- Custom Functions -->
     <script src="js/custom.js"></script>
 
-    <script type="text/javascript">
-      $(function () {
-        /* ========================================================================= */
-        /*	Contact Form
-				/* ========================================================================= */
-
-        $("#contact-form").validate({
-          rules: {
-            name: {
-              required: true,
-              minlength: 2,
-            },
-            email: {
-              required: true,
-              email: true,
-            },
-            message: {
-              required: true,
-            },
-          },
-          messages: {
-            name: {
-              required: "come on, you have a name don't you?",
-              minlength: "your name must consist of at least 2 characters",
-            },
-            email: {
-              required: "no email, no message",
-            },
-            message: {
-              required:
-                "um...yea, you have to write something to send this form.",
-              minlength: "thats all? really?",
-            },
-          },
-          submitHandler: function (form) {
-            $(form).ajaxSubmit({
-              type: "POST",
-              data: $(form).serialize(),
-              url: "process.php",
-              success: function () {
-                $("#contact-form :input").attr("disabled", "disabled");
-                $("#contact-form").fadeTo("slow", 0.15, function () {
-                  $(this).find(":input").attr("disabled", "disabled");
-                  $(this).find("label").css("cursor", "default");
-                  $("#success").fadeIn();
-                });
-              },
-              error: function () {
-                $("#contact-form").fadeTo("slow", 0.15, function () {
-                  $("#error").fadeIn();
-                });
-              },
-            });
-          },
-        });
-      });
-    </script>
     <script>
       document.getElementById("aboutus").onclick = function () {
         location.href = "index.html";
