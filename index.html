@@ -51,9 +51,6 @@
 
   <body id="body">
     <!-- preloader -->
-    <div id="preloader">
-      <img src="img/preloader.gif" alt="Preloader" />
-    </div>
     <!-- end preloader -->
 
     <!-- 
@@ -77,19 +74,21 @@
           <!-- logo -->
           <a class="navbar-brand" href="#body">
             <img src="./img/images/logo.png" alt="" />
+            
           </a>
-          <!-- /logo -->          
+          <!-- /logo -->
+          <span class="navbar-text">पूर्वांचल लोक उत्थान एवं शोध परिषद</span> 
         </div>
-        <p class="navbar-text">पूर्वांचल लोक उत्थान एवं शोध परिषद</p>
-
+        
         <!-- main nav -->
         <nav class="collapse navbar-collapse" role="navigation">
-          <ul id="nav" class="nav navbar-nav navbar-right">
+          <ul id="nav" class="nav navbar-nav navbar-right dlDropDown">
+              
             <li class="current"><a id="aboutus" href="#index.html">Home</a></li>
-            <li><a href="#works">Programs</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#history">History</a></li>
-            <li><a href="#footer">Contact</a></li>
+            <li><a href="#works" >Programs</a></li>
+            <li><a href="#about" >About Us</a></li>
+            <li><a href="#history" >History</a></li>
+            <li><a href="#footer" >Contact</a></li>
             <li>
               <a href="#" data-toggle="modal" data-target="#modalDonate"
                 >Donate Now</a
@@ -863,11 +862,5 @@
     </script>
     <!-- Custom Functions -->
     <script src="js/custom.js"></script>
-
-    <script>
-      document.getElementById("aboutus").onclick = function () {
-        location.href = "index.html";
-      };
-    </script>
   </body>
 </html>

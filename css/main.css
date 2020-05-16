@@ -714,7 +714,6 @@ body > section,
   line-height: 24px;
 }
 
-
 .contact-form h3 {
   color: #062033;
   font-size: 24px;
@@ -914,29 +913,28 @@ table {
   border-collapse: separate;
 }
 
-.pd-lr-20{
+.pd-lr-20 {
   padding-left: 20vw;
   padding-right: 20vw;
 }
 
-@media screen and (max-width: 767px){
-  .pd-lr-20{
+@media screen and (max-width: 767px) {
+  .pd-lr-20 {
     padding: unset !important;
   }
 }
 
-#map_canvas{
+#map_canvas {
   max-width: 300px;
   max-height: 300px;
 }
 
-.margin-top-100{
+.margin-top-100 {
   margin-top: 100px !important;
 }
 
-.navbar-text{
-  color:white;
-  font-family: 'Noto Serif', serif;
+.navbar-text {
+  color: white;
+  font-family: "Noto Serif", serif;
   font-size: 20px;
-  
 }
