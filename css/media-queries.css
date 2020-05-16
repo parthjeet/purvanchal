@@ -109,8 +109,7 @@
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
-
-  .pd-lr-20{
+  .pd-lr-20 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -213,7 +212,7 @@
   /* .about-img {
     float: none;
   } */
-  .pd-lr-20{
+  .pd-lr-20 {
     padding: unset;
   }
 }
@@ -253,5 +252,4 @@
   /* .about-img {
     float: none;
   } */
-
 }
