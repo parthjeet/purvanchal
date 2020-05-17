@@ -960,8 +960,11 @@ table {
   }
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
   #bannerImage{
     background-image: url(../img/banner_400.jpg);
+  }
+  .navbar-text{
+    font-size: 3.5vw;
   }
 }
