@@ -24,6 +24,9 @@
 @media (min-width: 768px) and (max-width: 979px) {
   /* slider */
 
+  #baneerImage{
+    background-image: url(../img/banner.jpg);
+  }
   .carousel-caption h2 {
     font-size: 55px;
   }
@@ -252,4 +255,10 @@
   /* .about-img {
     float: none;
   } */
+}
+
+@media (min-width:800px){
+  #baneerImage{
+    background-image: url(../img/banner.jpg);
+  }
 }

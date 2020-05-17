@@ -938,3 +938,30 @@ table {
   font-family: "Noto Serif", serif;
   font-size: 20px;
 }
+
+#bannerImage {
+  background-image: url(../img/banner.jpg);
+}
+
+@media (min-width:1001px){
+  #bannerImage{
+    background-image: url(../img/banner.jpg);
+  }
+}
+@media (max-width:1000px){
+  #bannerImage{
+    background-image: url(../img/banner_800.jpg);
+  }
+}
+
+@media (max-width:600px){
+  #bannerImage{
+    background-image: url(../img/banner_600.jpg);
+  }
+}
+
+@media (max-width:400px){
+  #bannerImage{
+    background-image: url(../img/banner_400.jpg);
+  }
+}
