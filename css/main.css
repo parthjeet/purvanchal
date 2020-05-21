@@ -9,6 +9,10 @@ body {
   font-size: 15px;
   color: #6a737b;
 }
+.color1 {
+  background-color: #f3f9d2;
+  /*//background-color: #fbfbe3;*/
+}
 
 ol,
 ul {
@@ -218,17 +222,17 @@ body > section,
 }
 
 .carousel-caption h2 {
-  font-size: 62px;
+  font-size: 50px;
   font-weight: 300;
 }
 
 .carousel-caption h2 span {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .carousel-caption h3 {
-  font-size: 48px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 400;
   margin: 6px 0 20px;
 }
 
@@ -943,28 +947,28 @@ table {
   background-image: url(../img/banner.jpg);
 }
 
-@media (min-width:1001px){
-  #bannerImage{
+@media (min-width: 1001px) {
+  #bannerImage {
     background-image: url(../img/banner.jpg);
   }
 }
-@media (max-width:1000px){
-  #bannerImage{
+@media (max-width: 1000px) {
+  #bannerImage {
     background-image: url(../img/banner_800.jpg);
   }
 }
 
-@media (max-width:600px){
-  #bannerImage{
+@media (max-width: 600px) {
+  #bannerImage {
     background-image: url(../img/banner_600.jpg);
   }
 }
 
-@media (max-width:450px){
-  #bannerImage{
+@media (max-width: 450px) {
+  #bannerImage {
     background-image: url(../img/banner_400.jpg);
   }
-  .navbar-text{
+  .navbar-text {
     font-size: 3.5vw;
   }
 }
