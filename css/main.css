@@ -231,11 +231,11 @@ body > section,
 }
 
 .carousel-caption h3 {
-  font-size: 40px;
-  font-weight: 400;
-  margin: 6px 0 20px;
+  font-size: 28px;
+  font-weight: 650;
+  margin: 6px 0px 20px;
+  width: 100%;
 }
-
 .carousel-caption p {
   color: #fff;
   font-size: 18px;
@@ -366,10 +366,6 @@ body > section,
 /*=========================================
 	Features
 ==========================================*/
-
-.features {
-  background-color: #f4f7f9;
-}
 
 .owl-controls {
   bottom: -45px;
