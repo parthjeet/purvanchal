@@ -227,12 +227,13 @@ body > section,
 }
 
 .carousel-caption h2 span {
-  font-weight: 500;
+  color: rgb(255, 249, 145);
+  font-weight: 600;
 }
 
 .carousel-caption h3 {
   font-size: 28px;
-  font-weight: 650;
+  font-weight: 400;
   margin: 6px 0px 20px;
   width: 100%;
 }
